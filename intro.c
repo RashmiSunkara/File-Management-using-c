@@ -24,8 +24,6 @@ while ((i=(fgetc(file))) != EOF)
         }
     }
 }
-printf("%d\n",sum+d);
-printf("%f\n",c);
 avg=(sum+d)/c;
 printf("%f",avg);
 fclose(file);
