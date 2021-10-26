@@ -24,7 +24,7 @@ while ((i=(fgetc(file))) != EOF)
         }
     }
 }
-avg=(sum+d)/c;
+avg=(sum+d)/c;//Class average with each student details and marks(only one subject and no other digits in pargraph) in each paragraph 
 printf("%f",avg);
 fclose(file);
 }
